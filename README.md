@@ -2,6 +2,12 @@
 
 Automatically rename image and PDF files using Claude's vision and document understanding capabilities. Perfect for organizing musical scores, sheet music, or any document collection.
 
+## Purpose
+
+Built to organize the digital music folder of **Alma Viajera**, the duo of my uncle Jorge Eliecer and Don Abelardo. They photograph the lyrics of their songs with a phone, and every photo ends up with the device's auto-generated name. This script reads each photo with Claude, takes the song title and renames the file with it, so the whole repertoire stays sorted alphabetically and any song is easy to find.
+
+> 🇪🇸 **Propósito:** ordenar la carpeta digital de música de *Alma Viajera*, el dueto de mi tío Jorge Eliecer y Don Abelardo. Las fotos de las letras de sus canciones llegan con el nombre que les pone el celular; el script lee cada foto con IA, toma el título de la canción y renombra el archivo con él, para tener todos sus temas ordenados alfabéticamente.
+
 ## Features
 
 ✅ **Automated Title Extraction** - Uses Claude API to intelligently extract titles from documents  
