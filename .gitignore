@@ -40,5 +40,7 @@ wheels/
 logs/
 *.log
 
-# Input files (optional - uncomment if you want to track them)
-# input_files/
+# Input files: personal photos and documents are never committed.
+# The folder is kept in the repo through input_files/.gitkeep
+input_files/*
+!input_files/.gitkeep
