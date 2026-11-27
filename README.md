@@ -92,10 +92,9 @@ $env:ANTHROPIC_API_KEY="sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ### 1. Prepare Your Files
 
-Create the `input_files` folder and add your files:
+The `input_files` folder already exists in the repo (it is git-ignored, so your photos and documents are never committed). Add your files to it:
 
 ```bash
-mkdir input_files
 # Copy your PDF and image files into input_files/
 cp ~/Downloads/song_title.pdf input_files/
 cp ~/Downloads/sheet_music.jpg input_files/
